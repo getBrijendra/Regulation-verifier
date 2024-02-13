@@ -40,7 +40,7 @@ def create_prompt(compliance_authority, regulations_set, input_content):
     regulations_template = PromptTemplate.from_template(regulations_template)
 
 
-    input_content_template = """Now, check if below input follow all the above regulations. Provide all regulations which are not followed in below input.
+    input_content_template = """Now, check if below input follow all the above regulations. Please do not create information on its own. Take time and think step by step with proper reasoning. Provide all regulations which are not followed in below input.
 
     {input}
     A:"""

@@ -17,6 +17,15 @@ Add your open AI Key
 python .\app.py
 ```
 
+## Improvement 
+
+Below improvements could be made:
+
+1. As number of token can cross alowed limit for open ai model. So Handle cases with chunked bases.
+2. As regulations are not changing frequently. So Using RAG techniques, embedding token can be stored in vector DB. Then based on policy types, find appropriate regulations chunks and find not followed regulation for improvements. 
+3. To reduce size of chunks, fire multiple queries based on different techniques like map-reduce etc. depending on use cases.
+4. Take steps for verifying the hallucinations.
+
 
 ## Contributing
 
