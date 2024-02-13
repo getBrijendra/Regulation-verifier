@@ -1,0 +1,8 @@
+langchain
+bs4
+html2text
+tqdm
+openai
+faiss-cpu
+tiktoken
+python-dotenv
